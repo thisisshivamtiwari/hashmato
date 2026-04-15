@@ -11,6 +11,13 @@ import {
   ethicalHeroDemoTitle,
 } from '@/data/ethical-hero-demo'
 import { HeroSection02 } from '@/components/ui/hero-02'
+import { Hero195 } from '@/components/ui/hero-195'
+import AeroHeroDemo from '@/components/ui/aero-hero-1-demo'
+import { Component as AeroCounter } from '@/components/ui/aero-hero-1'
+import { FeaturesSection } from '@/components/ui/feature'
+import FeatureSections from '@/components/ui/feature-sections'
+import FeatureSectionsDemo from '@/components/ui/feature-sections-demo'
+import FeaturesCards from '@/components/ui/feature-shader-cards'
 import { ProjectShowcase } from '@/components/ui/project-showcase'
 
 const App = () => {
@@ -45,6 +52,30 @@ const App = () => {
 
         <div id="customers" className="scroll-mt-24">
           <HeroSection02 />
+        </div>
+
+        <div id="growth" className="scroll-mt-24">
+          <Hero195 />
+        </div>
+
+        <div id="features-ui" className="scroll-mt-24">
+          <FeaturesSection />
+        </div>
+
+        <div id="feature-sections" className="scroll-mt-24">
+          <FeatureSections />
+          <FeatureSectionsDemo />
+        </div>
+
+        <div id="aero-hero" className="scroll-mt-24">
+          <AeroHeroDemo />
+          <div className="mx-auto w-full max-w-6xl px-4 py-8">
+            <AeroCounter />
+          </div>
+        </div>
+
+        <div id="shader-cards" className="scroll-mt-24">
+          <FeaturesCards />
         </div>
 
         <main

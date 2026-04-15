@@ -65,16 +65,16 @@ export const LandingAccordionItem = () => {
         <div className="flex flex-col items-center justify-between gap-12 md:flex-row">
           <div className="w-full text-center md:w-1/2 md:text-left">
             <h1 className="text-4xl font-bold leading-tight tracking-tighter text-gray-900 md:text-6xl dark:text-zinc-50">
-              Run restaurants & retail on one{' '}
+              Your screenshots, unified into one{' '}
               <span className="text-emerald-700 dark:text-emerald-400">
                 Hashmato
               </span>{' '}
               platform
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-lg text-gray-600 md:mx-0 dark:text-zinc-400">
-              From POS and KOTs to online ordering, kiosks, and cloud inventory —
-              2,000+ outlets trust Hashmato for fast, secure, multi-location
-              operations.
+              POS screens, order queues, table management, and issue-wise reports
+              are now connected in one landing story that mirrors your actual
+              product workflows.
             </p>
             <div className="mt-8">
               <a

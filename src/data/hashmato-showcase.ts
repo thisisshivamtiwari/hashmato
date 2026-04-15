@@ -11,35 +11,35 @@ export interface HashmatoShowcaseItem {
 /** Product & program highlights — mirrors “selected work” pattern */
 export const hashmatoShowcaseItems: HashmatoShowcaseItem[] = [
   {
-    title: 'Online ordering system',
+    title: 'Problem diagnosis',
     description:
-      'Branded web and app ordering with centralized menu and promo control.',
-    year: 'Suite',
+      'Map people, process, and tool gaps before they hit your service quality.',
+    year: 'Step 01',
     link: `${HASHMATO_SITE}/online-ordering-system/`,
-    image: HASHMATO_PRODUCT_IMAGES.onlineOrdering,
+    image: HASHMATO_PRODUCT_IMAGES.restaurantIndustry,
   },
   {
-    title: 'Waiter & Android POS',
+    title: 'All-in-one architecture',
     description:
-      'Tableside ordering and rugged Android terminals built for peak hours.',
-    year: 'Suite',
-    link: HASHMATO_SITE,
-    image: HASHMATO_PRODUCT_IMAGES.androidPos,
-  },
-  {
-    title: 'DinePlan & integrations',
-    description:
-      'Connect reservations and delivery marketplaces into one operations hub.',
-    year: 'Partner',
+      'Connect menu, billing, inventory, reports, and integrations on one stack.',
+    year: 'Step 02',
     link: HASHMATO_SITE,
     image: HASHMATO_PRODUCT_IMAGES.dineplanIntegration,
   },
   {
-    title: 'Multi-industry coverage',
+    title: 'Operational transformation',
     description:
-      'Restaurants, retail, hospitals, schools, franchises, and enterprise rollouts.',
-    year: 'Global',
+      'Move from disconnected manual flow to consistent, auditable operations.',
+    year: 'Step 03',
     link: HASHMATO_SITE,
-    image: HASHMATO_PRODUCT_IMAGES.enterpriseIndustry,
+    image: HASHMATO_PRODUCT_IMAGES.retailIndustry,
+  },
+  {
+    title: 'Outcome tracking',
+    description:
+      'Monitor ownership controls, outlet growth, revenue lift, and cost health.',
+    year: 'Step 04',
+    link: HASHMATO_SITE,
+    image: HASHMATO_PRODUCT_IMAGES.inventory,
   },
 ]

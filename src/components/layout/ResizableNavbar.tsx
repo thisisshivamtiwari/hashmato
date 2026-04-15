@@ -18,6 +18,9 @@ const NAV_ITEMS: NavItem[] = [
   { label: 'Suite', href: '#suite' },
   { label: 'Solutions', href: '#solutions' },
   { label: 'Customers', href: '#customers' },
+  { label: 'Growth', href: '#growth' },
+  { label: 'Aero Hero', href: '#aero-hero' },
+  { label: 'Shader Cards', href: '#shader-cards' },
   { label: 'Highlights', href: '#highlights' },
 ]
 

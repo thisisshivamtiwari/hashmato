@@ -9,27 +9,27 @@ export type AccordionItemData = {
 export const accordionItems: AccordionItemData[] = [
   {
     id: 1,
-    title: 'Online Ordering',
-    imageUrl: HASHMATO_PRODUCT_IMAGES.onlineOrdering,
-  },
-  {
-    id: 2,
-    title: 'Point of Sale',
+    title: 'Drinks & modifiers',
     imageUrl: HASHMATO_PRODUCT_IMAGES.pos,
   },
   {
+    id: 2,
+    title: 'Order queue',
+    imageUrl: HASHMATO_PRODUCT_IMAGES.onlineOrdering,
+  },
+  {
     id: 3,
-    title: 'Self-Ordering Kiosk',
+    title: 'Table control',
     imageUrl: HASHMATO_PRODUCT_IMAGES.kiosk,
   },
   {
     id: 4,
-    title: 'Cloud Inventory',
-    imageUrl: HASHMATO_PRODUCT_IMAGES.inventory,
+    title: 'Issue-wise reports',
+    imageUrl: HASHMATO_PRODUCT_IMAGES.queue,
   },
   {
     id: 5,
-    title: 'Queue Management',
-    imageUrl: HASHMATO_PRODUCT_IMAGES.queue,
+    title: 'Unified platform map',
+    imageUrl: HASHMATO_PRODUCT_IMAGES.dineplanIntegration,
   },
 ]

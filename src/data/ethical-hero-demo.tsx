@@ -1,6 +1,9 @@
 import type { Feature } from '@/components/ui/hero-5'
 
-import { HASHMATO_PRODUCT_IMAGES, HASHMATO_SITE } from '@/data/hashmato'
+import {
+  HASHMATO_SCREENSHOTS,
+  HASHMATO_SITE,
+} from '@/data/hashmato'
 
 export const ethicalHeroDemoTitle = (
   <>
@@ -12,7 +15,7 @@ export const ethicalHeroDemoTitle = (
 )
 
 export const ethicalHeroDemoSubtitle =
-  'Trusted by 2,000+ locations worldwide: take orders, fire KOTs, sync inventory, and reconcile sales across dine-in, takeaway, delivery, and 100+ integrations — with offline mode and enterprise-grade security.'
+  'Built from real operator workflows: issue-wise controls, outlet-level reporting, scalable architecture, and faster decision loops for owners and managers.'
 
 export const ethicalHeroDemoCtaLabel = 'Schedule a demo'
 export const ethicalHeroDemoCtaHref = HASHMATO_SITE
@@ -20,20 +23,20 @@ export const ethicalHeroDemoCtaHref = HASHMATO_SITE
 export const ethicalHeroDemoFeatures: Feature[] = [
   {
     id: 'online-ordering',
-    title: 'Online ordering',
-    imageUrl: HASHMATO_PRODUCT_IMAGES.onlineOrdering,
+    title: 'Owner control in one view',
+    imageUrl: HASHMATO_SCREENSHOTS.ownerControl,
     href: `${HASHMATO_SITE}/online-ordering-system/`,
   },
   {
     id: 'pos-suite',
-    title: 'POS & kitchen display',
-    imageUrl: HASHMATO_PRODUCT_IMAGES.pos,
+    title: 'Multi-outlet visibility',
+    imageUrl: HASHMATO_SCREENSHOTS.multiOutlet,
     href: HASHMATO_SITE,
   },
   {
     id: 'cloud-inventory',
-    title: 'Cloud inventory',
-    imageUrl: HASHMATO_PRODUCT_IMAGES.inventory,
+    title: 'Revenue and cost confidence',
+    imageUrl: HASHMATO_SCREENSHOTS.revenueGrowth,
     href: HASHMATO_SITE,
   },
 ]

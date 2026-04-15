@@ -21,6 +21,10 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
+  --color-muted-2: var(--muted-2);
+  --color-muted-2-foreground: var(--muted-2-foreground);
+  --color-transparent: transparent;
+  --animate-border-beam: border-beam calc(var(--duration) * 1s) infinite linear;
 }
 
 @keyframes marquee {
@@ -38,6 +42,12 @@
   }
   to {
     transform: translateY(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes border-beam {
+  100% {
+    offset-distance: 100%;
   }
 }
 
@@ -59,6 +69,8 @@
   --border: #e4e4e7;
   --input: #e4e4e7;
   --ring: #a1a1aa;
+  --muted-2: #e4e4e7;
+  --muted-2-foreground: #52525b;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -80,6 +92,8 @@
     --border: #27272a;
     --input: #27272a;
     --ring: #52525b;
+    --muted-2: #2f2f36;
+    --muted-2-foreground: #a1a1aa;
   }
 }
 
